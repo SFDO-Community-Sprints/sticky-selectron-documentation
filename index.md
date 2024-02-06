@@ -7,13 +7,19 @@ has_children: false
 
 # About
 
-The Sticky Selectron Lightning Component allows for the selection of records to persist (or remain the same) while advancing through flow screens and then returning to the selection screen for any further modifications.
+The Sticky Selectron Lightning Web Component is designed to work and be displayed within a screen flow. It presents an interface for object selection, and preserves the selection of records across multiple screens including persisting changes in record selection between screens. Sticky Selectron supports standard and custom objects.
 
-For example, if a housing complex offered afterschool programs like training, snacks, and one-on-one coaching where many of the same children participated in these activities, then our custom LWC would definitely streamline tracking attendance. It would make sure that if you selected 20 of 30 children for the first program, then that same set of children would be the default selection for the second program as the starting point where you could then revise the selection by adding and removing students instead of starting from zero. This is especially beneficial if you have a large number of contacts and participants that number in the hundreds which is the case for our client. We call this our “sticky” selection feature because the contact selection would persist while changing to other screens in the flow then returning to the contact selection screen for another round. That is why we gave the name “Sticky Selectron” to our LWC.
+## Insert Screen Shot Here
+
+The idea for this project was inspired by a nonprofit that recorded services delivered to their clients. For example, they offered afterschool programs like homework club, snacks, and one-on-one tutoring where many of the same children participated in these activities during the same after school session. If they needed to record three services for the same set of 20 children - they had to select the 20 children three times, once for each service during that session. This made recording services very slow and painful for the staff and made it easier to have selection errors. The sticky selectron streamlined the data entry of tracking services by allowing them to select a group of children once for the first program, then on the next screen the same set of children is presented, which they can modify if needed (Not everyone got a snack so a couple of kids were deselected), for the third service the group of children selected for second service would be the default choice for service selection and then could modify the selections again (not everyone was tutored). This approach sped up service entry and reduced errors and user frustration. The ability to preserve the selection from screen to screen is the “sticky” feature which is why we named it “Sticky Selectron”. 
+
+## Insert Demo overview video here
 
 ## Highlights
 
-- Load several hundred records
-- Sort and search records in datatable
-- Allow selection of records to persist (or remain “sticky”) across flow screens
+- Optimized for 2000 records
+- Support for Standard and Custom Objects
+- Sort and search records in the datatable
+- Select all, Deselect all
+- Selection of records presists (or remains “sticky”) across flow screens
 
