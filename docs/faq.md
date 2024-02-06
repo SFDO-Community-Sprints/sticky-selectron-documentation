@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 nav_order: 8
+has_children: false
 ---
 
 # Frequently Asked Questions
