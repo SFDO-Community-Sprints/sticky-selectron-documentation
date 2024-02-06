@@ -18,7 +18,7 @@ description: Sticky Selectron Lightning Component
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://sfdo-community-sprints.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: just-the-docs/just-the-docs # for github-metadata
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 permalink: pretty
 
