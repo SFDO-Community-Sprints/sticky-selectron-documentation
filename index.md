@@ -33,6 +33,8 @@ The idea for this project was inspired by a nonprofit that recorded services del
 
   ![Purple Maiʻa Foundation logo](images/purple-maia-logo.jpg)
 
+  Company name: Terranox - website: terranox.co
+
 ## Contributors &amp; Maintainers
 
 - [David Pickett / pickettd](https://github.com/pickettd)
