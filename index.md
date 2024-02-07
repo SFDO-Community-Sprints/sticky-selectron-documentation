@@ -23,3 +23,19 @@ The idea for this project was inspired by a nonprofit that recorded services del
 - Select all, Deselect all
 - Selection of records presists (or remains “sticky”) across flow screens
 
+## Acknowledgements
+
+- [Bigger Boat Consulting](https://biggerboatconsulting.com/)
+
+  ![Bigger Boat Consulting logo](images/bigger-boat-consulting-logo.png)
+
+- [Purple Maiʻa Foundation](https://purplemaia.org/)
+
+  ![Purple Maiʻa Foundation logo](images/purple-maia-logo.jpg)
+
+## Contributors &amp; Maintainers
+
+- [David Pickett / pickettd](https://github.com/pickettd)
+- [Karen Sabog / kalena](https://github.com/kalena)
+- [Bhanudas Tanaka / bhanudas](https://github.com/bhanudas)
+
