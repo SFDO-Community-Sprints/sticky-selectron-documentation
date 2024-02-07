@@ -6,17 +6,12 @@ nav_order: 3
 # Configuring Sticky Selectron
 
 ## Data Sources
-Sticky Selectron supports a single object, standard or custom. Selection of the object is defined during configuration.
+Sticky Selectron supports the selection of records from a single object, standard or custom. Selection of the object is defined during configuration.
 
 ## Sample Flow
-Sticky Selectron comes with a Sample flow called Sticky Selectron Example Account Flow. This flow is deactivated and intended to demonstrate how to use Sticky Selectron. See the [Example Flows](https://sfdo-community-sprints.github.io/SSSFDG/docs/example-flows/) page for more information.
+Sticky Selectron comes with a Sample flow called Sticky Selectron Example Account Flow. This flow is deactivated and intended to demonstrate how to use Sticky Selectron. See the [Example Flows](https://sfdo-community-sprints.github.io/SSSFDG/docs/example-flows/) page for more information. This sample flow is referenced as example information in the configuration settings below.
 
-## Adding Sticky Selectron to a Screen Flow
-
-In the components pane select 'Sticky Selectron' and drag it onto the screen.
-_add screenshot here_
-
-## Create Resources
+## Resources
 The flow will need to reference a set of variables (Collection Variables, Record collection Variables and Variables) that you will need to build in order for the Sticky Selectron to reference them in configuration. 
 Below is a list of the Resources that you will need to create and how they are used/populated. The sample collection names are from the sample flow (Sticky Selectron Example Account Flow) provided in the package. We recommend you name collections with more meaningful names to reflect your use-case.
 
@@ -35,23 +30,23 @@ Below is a list of the settings that need to be configured.
 
 | Setting Name |Description | Sample Value |
 | --- | --- | --- |
-| **API Name** | List all *new or modified* files | Display_Sticky_Selectron_Accounts |
-| **Input sObject Type** | This is the Object used by Sticky Selectron  | Account |
-| **Input (Left) Table's Field Names** | List all *new or modified* files | inputTableFieldNames |
-| **Input sObject collection**| Show file differences that **haven't been** staged | inputAccountList |
-| **Selected (Right) Table's Field Names** | List all *new or modified* files | selectedTableFieldNames |
-| **Selected sObjects collection** | Show file differences that **haven't been** staged | selectedAccountList |
-| **Table Header** | List all *new or modified* files | Accounts |
-| **Output the count of inputSObjectsList records** | Show file differences that **haven't been** staged | listCount |
-| **Output the count of selectedSObjectsList records** | Show file differences that **haven't been** staged | selectedListCount |
+| **API Name** | Whatever API Name you want to give the component | Display_Sticky_Selectron_Accounts |
+| **Input sObject Type** | This is the Object used by Sticky Selectron, once you select an object and save this field will not be editable   | Account |
+| **Input (Left) Table's Field Names** | This is the Collection Variable that is used to configure which columns should display on the left _selectable_ side  | inputTableFieldNames |
+| **Input sObject collection**| This is the Record Collection Variable created to store the records that will be selectable | inputAccountList |
+| **Selected (Right) Table's Field Names** | This is the Collection Variable that is used to configure which columns should display on the right _selected_ side | selectedTableFieldNames |
+| **Selected sObjects collection** | This is the Record Collection Variable created to store the records that have been selected | selectedAccountList |
+| **Table Header** | _HOW HAS THIS CHANGED?_ This is the header you want to display above the record selection UI | Accounts |
+| **Output the count of inputSObjectsList records** | This is the Variable created that stores the count of records in the SELECTABLE Record Collection Variable | listCount |
+| **Output the count of selectedSObjectsList records** | This is the Variable created that stores the count of records in the SELECTED Record Collection Variable | selectedListCount |
 
 **Advanced Settings**
 Under Advanced Settings select the checkbox called **Manually assign variables**. There are three output configuration fields that need to be configured in Advanced Settings. Populate these with the same values used in the Standard settings.
 
 | Setting Name |Description | Sample Value |
 | --- | --- | --- |
-| **Input sObject collection** | List all *new or modified* files | InputAccountList |
-| **Output the count of selectedSObjectsList records** | Show file differences that **haven't been** staged | SelectedListCount |
-| **Selected sObjects collection** | Show file differences that **haven't been** staged | SelectedAccountList |
+| **Input sObject collection** | This is the Record Collection Variable created to store the records that will be selectable | inputAccountList |
+| **Output the count of selectedSObjectsList records** | This is the Variable created that stores the count of records in the SELECTED Record Collection Variable | selectedListCount |
+| **Selected sObjects collection** | This is the Record Collection Variable created to store the records that have been selected | selectedAccountList |
 
 Next review the [Example Flows](https://sfdo-community-sprints.github.io/SSSFDG/docs/example-flows/) page to see how to build the flow.
