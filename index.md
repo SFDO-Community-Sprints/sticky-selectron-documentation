@@ -35,6 +35,8 @@ The idea for this project was inspired by a nonprofit that recorded services del
 
   Company name: Terranox - website: terranox.co
 
+  KahunaTek LLC -https://www.kahunatek.com
+
 ## Contributors &amp; Maintainers
 
 - [David Pickett / pickettd](https://github.com/pickettd)
