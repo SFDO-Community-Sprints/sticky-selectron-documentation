@@ -16,19 +16,18 @@ Sticky Selectron comes with a Sample flow called Sticky Selectron Example Accoun
 In the components pane select 'Sticky Selectron' and drag it onto the screen.
 _add screenshot here_
 
-## Create Collections
-The flow will need to reference a set of collections in the configuration so first build the collections. Below are sample collection names from the Sample Account flow provided with the installation. We recommend you name collections with more meaningful names to reflect your use-case.
+## Create Resources
+The flow will need to reference a set of variables (Collection Variables, Record collection Variables and Variables) that you will need to build in order for the Sticky Selectron to reference them in configuration. 
+Below is a list of the Resources that you will need to create and how they are used/populated. The sample collection names are from the sample flow (Sticky Selectron Example Account Flow) provided in the package. We recommend you name collections with more meaningful names to reflect your use-case.
 
-| Sample Name |Description | Type |
-| --- | --- | --- |
-| **API Name** | List all *new or modified* files | Display_Sticky_Selectron_Accounts |
-| **Input sObject Type** | Show file differences that **haven't been** staged | Show file differences that **haven't been** staged |
-| **Input (Left) Table's Field Names** | List all *new or modified* files | List all *new or modified* files |
-| **Input sObject collection**| Show file differences that **haven't been** staged | Show file differences that **haven't been** staged |
-| **Selected (Right) Table's Field Names** | List all *new or modified* files | List all *new or modified* files |
-| **Selected sObjects collection** | Show file differences that **haven't been** staged | Show file differences that **haven't been** staged |
-| `git status` | List all *new or modified* files | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged | Show file differences that **haven't been** staged |
+| Description | Type | Assignment/Use | Sample Name from flow |
+| --- | --- | --- | --- |
+| **Collection Variable:** Used to configure which columns should display on the left _selectable_ side | Variable, Data Type: Text, Allow Multiple values (collection): True, Available for input: True| Populated with an assignment element in the flow. See Assigning Table Columns| inputTableFieldNames |
+| **Collection Variable:** Used to configure which columns should display on the right _selectable_ side | Variable, Data Type: Text, Allow Multiple values (collection): True, Available for input: True | Populated with an assignment element in the flow. See Assigning Table Columns | selectedTableFieldNames |
+| **Record Collection Variable:** Record collection used to store the records that should be displayed on the left _selectable_ side  | Record Collection Variable, Data Type: Record, Object: The object you are selecting from, Allow Multiple values (collection): True, Available for input: True _Available for output: True IS THIS THE CASE?_ | Populated from within the flow with a *Get Records* Element or passed to the flow from another process | inputAccountList |
+| **Record Collection Variable:** Record collection used to store the records that should be displayed on the right _seleced_ side  | Record Collection Variable, Data Type: Record, Object: The object you are selecting from, Allow Multiple values (collection): True, Available for input: True _Available for output: True IS THIS THE CASE?_  | Populated by Sticky Selectron when users select records from within the screen flow. NOTE: If you want to pre-populate this collection make sure the same records are also populated in the selectable Record Collection Variable _TEST THIS_  | selectedAccountList |
+| **Variable:** Count of records in the SELECTABLE Record Collection Variable | Variable, Data Type: Number, Allow Multiple values (collection): False, Decimal Places: 0, Default Value: NULL | Populated by Sticky Selectron. You can reference this variable elsewhere in your flow | listCount |
+| **Variable:** Count of records in the SELECTED Record Collection Variable | Variable, Data Type: Number, Allow Multiple values (collection): False, Decimal Places: 0, Default Value: NULL | Populated by Sticky Selectron. You can reference this variable elsewhere in your flow  | selectedListCount |
 
 
 ## Configuration Options
@@ -39,12 +38,12 @@ Below is a list of the settings that need to be configured.
 | **API Name** | List all *new or modified* files | Display_Sticky_Selectron_Accounts |
 | **Input sObject Type** | This is the Object used by Sticky Selectron  | Account |
 | **Input (Left) Table's Field Names** | List all *new or modified* files | inputTableFieldNames |
-| **Input sObject collection**| Show file differences that **haven't been** staged | InputAccountList |
+| **Input sObject collection**| Show file differences that **haven't been** staged | inputAccountList |
 | **Selected (Right) Table's Field Names** | List all *new or modified* files | selectedTableFieldNames |
-| **Selected sObjects collection** | Show file differences that **haven't been** staged | SelectedAccountList |
+| **Selected sObjects collection** | Show file differences that **haven't been** staged | selectedAccountList |
 | **Table Header** | List all *new or modified* files | Accounts |
-| **Output the count of inputSObjectsList records** | Show file differences that **haven't been** staged | ListCount |
-| **Output the count of selectedSObjectsList records** | Show file differences that **haven't been** staged | SelectedListCount |
+| **Output the count of inputSObjectsList records** | Show file differences that **haven't been** staged | listCount |
+| **Output the count of selectedSObjectsList records** | Show file differences that **haven't been** staged | selectedListCount |
 
 **Advanced Settings**
 Under Advanced Settings select the checkbox called **Manually assign variables**. There are three output configuration fields that need to be configured in Advanced Settings. Populate these with the same values used in the Standard settings.
