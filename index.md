@@ -28,8 +28,8 @@ The idea for this project was inspired by a Nonprofit using NPSP and PMM to reco
 | :--- | :---: |
 | **[Purple Maiʻa Foundation](https://purplemaia.org/)** | <img alt="Purple Mai'a Foundation Logo"  src="/sticky-selectron-documentation/docs/Assets/purple-maia-logo.jpg" height="200" > |
 | **[Terranox](https://terranox.co)** | <img alt="Terranox Logo"  src="/sticky-selectron-documentation/docs/Assets/terranox_logo.png" width="300" > |
-| **[Bigger Boat Consulting](https://biggerboatconsulting.com/)** |  <img alt="Bigger Boat Consulting Logo"  src="Assets/bigger-boat-consulting-logo.png" width="300" > |
-| **[KahunaTek LLC](https://www.kahunatek.com)** | <img alt="KahunaTek LLC Logo"  src="Assets/KahunaTek_logo.jpg" width="300" > |
+| **[Bigger Boat Consulting](https://biggerboatconsulting.com/)** |  <img alt="Bigger Boat Consulting Logo"  src="/sticky-selectron-documentation/docs/Assets/bigger-boat-consulting-logo.png" width="300" > |
+| **[KahunaTek LLC](https://www.kahunatek.com)** | <img alt="KahunaTek LLC Logo"  src="/sticky-selectron-documentation/docs/Assets/KahunaTek_logo.jpg" width="300" > |
 
 ## Contributors &amp; Maintainers
 
