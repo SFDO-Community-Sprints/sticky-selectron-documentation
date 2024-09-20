@@ -3,22 +3,28 @@ title: Installation
 nav_order: 2
 ---
 
-# Installing Sticky Selectron
-_Most of this documentation will happen once we have a package to do a run-through on it, and will be finished when the listing is live on the appexchange_
+# Sticky Selectron Installation
+## Recommendations
+- Install this package first in a sandbox for testing.
+- Install this package for all users. You'll be displaying this component within a screen flow which you control access to so access for all users simplifies things. Alternatly, there is a Sticky Selectron permission set you can assign to users if you select to install for Admin Only or for specific profiles.
 
-Best practices: We recommend installing this package first in a sandbox for testing.
+## MetaDEPLOY Sticky Selectron Installation
+Sticky Selectron is available on the Open Source Commons MetaDEPLOY page:  
+[[Open Source Commons MetaDeploy Page.](https://install.salesforce.org/products/sticky-selectron/latest)
+On this page you'll see that you have the ability to install the Sticky Selectron LWC as well as n Optional Sample flow package. 
 
-Sticky Selectron is available on the Appexchange **here**.
+1. Note that MetaDEPLOY will install Sticky Selectron for all users by default.
+2. click on the 'Install Sticky Selectron - View Details' button
+3. Click login and login to the org you want to install in (see Recommendations)
+4. On the MetaDEPLOY allow access page slect the Allow button
+5. On the Installation page select if you'd like to install the Optional Example Flows package. This optional package is selected by default.
+6. Click Install and accept the terms and usage popup.
+7. The page will display the installation progress and you should see a popup stating the installation has completed successfully.
 
-Description of navigating the appexchange and what buttons to click 
-
-Installation flow - see notes below
 
 
-Notes to keep track of
 
-- Screen shots
-- Install for which users? Apex Class. (run a test to see if you select a profile if the apex class is assigned to the profile)
-- Permission set assignment
-- What it looks like from within a flow. - link to configuration page
-- anything else?
+
+
+
+  
