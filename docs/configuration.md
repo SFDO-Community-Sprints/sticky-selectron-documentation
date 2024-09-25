@@ -9,10 +9,18 @@ nav_order: 3
 Sticky Selectron supports the selection of records from a single object, standard or custom. Selection of the object is defined during configuration.
 
 ## Sample Flow
-Sticky Selectron comes with a Sample flow called Sticky Selectron Example Account Flow. This flow is deactivated and intended to demonstrate how to use Sticky Selectron. See the [Example Flows](https://sfdo-community-sprints.github.io/SSSFDG/docs/example-flows/) page for more information. This sample flow is referenced as example information in the configuration settings below.
+Sticky Selectron comes with a Sample flow called Sticky Selectron Example Account Flow. This flow is deactivated and intended to demonstrate how to use Sticky Selectron. The example flow is optional to install when using MetaDEPLOY to install Sticky Selectron. See the [Example Flows](https://sfdo-community-sprints.github.io/SSSFDG/docs/example-flows/) page for more information. This sample flow is referenced as example information in the configuration settings below.
 
-## Resources
+## Known Field Display Limitations
+Join us in making Sticky Selectron even better! These are the currently identified limitations for field display (and are part of our planned feature list). 
+
+- Date/Time display are displayed as system values
+- Relationship fields display the ID of the related record
+
+
+## Configure Resources
 The flow will need to reference a set of variables (Collection Variables, Record collection Variables and Variables) that you will need to build in order for the Sticky Selectron to reference them in configuration. 
+We recommend that you create these resources before configuring Sticky Selectron. 
 Below is a list of the Resources that you will need to create and how they are used/populated. The sample collection names are from the sample flow (Sticky Selectron Example Account Flow) provided in the package. We recommend you name collections with more meaningful names to reflect your use-case.
 
 | Description | Type | Assignment/Use | Sample Name from flow |
@@ -24,6 +32,16 @@ Below is a list of the Resources that you will need to create and how they are u
 | **Variable:** Count of records in the SELECTABLE Record Collection Variable | Variable, Data Type: Number, Allow Multiple values (collection): False, Decimal Places: 0, Default Value: NULL | Populated by Sticky Selectron. You can reference this variable elsewhere in your flow | listCount |
 | **Variable:** Count of records in the SELECTED Record Collection Variable | Variable, Data Type: Number, Allow Multiple values (collection): False, Decimal Places: 0, Default Value: NULL | Populated by Sticky Selectron. You can reference this variable elsewhere in your flow  | selectedListCount |
 
+## Assign Column Display Collection Variables
+
+Using an Assignment Element - Assign the columns you wish to display to the two collection variables you created to store the information. In the Sticky Selectron Example Account Flow this is demonstrated with two assignment elements - but it is possible to assign both collection variables in the same assignment element. Please note that you use the 'Add' Operator and the API name of the fields you wish to display for the Object Sticky Selectron will display. 
+
+![Sticky Selectron Set Input Table Field Names Screenshot](/docs/Assets/Set_Input_Table_Field_Names.png)
+
+## Adding and Configuring Sticky Selectron
+Sticky Selectron is available from a Screen Element in Edit mode. Select Sticky Selectron from the Components tab and drag it into the screen. Once Sticky Selectron you can configure it. Please follow the next screen 
+
+![Sticky Selectron LWC Selection Screenshot](/docs/Assets/Sticky_LWC_Selection.png)
 
 ## Configuration Options
 Below is a list of the settings that need to be configured.
