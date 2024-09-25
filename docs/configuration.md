@@ -17,7 +17,6 @@ Join us in making Sticky Selectron even better! These are the currently identifi
 - Date/Time display are displayed as system values
 - Relationship fields display the ID of the related record
 
-
 ## Configure Resources
 The flow will need to reference a set of variables (Collection Variables, Record collection Variables and Variables) that you will need to build in order for the Sticky Selectron to reference them in configuration. 
 We recommend that you create these resources before configuring Sticky Selectron. 
@@ -36,12 +35,12 @@ Below is a list of the Resources that you will need to create and how they are u
 
 Using an Assignment Element - Assign the columns you wish to display to the two collection variables you created to store the information. In the Sticky Selectron Example Account Flow this is demonstrated with two assignment elements - but it is possible to assign both collection variables in the same assignment element. Please note that you use the 'Add' Operator and the API name of the fields you wish to display for the Object Sticky Selectron will display. 
 
-![Sticky Selectron Set Input Table Field Names Screenshot](/docs/Assets/Set_Input_Table_Field_Names.png)
+![Sticky Selectron Set Input Table Field Names Screenshot](Assets/Set_Input_Table_Field_Names.png)
 
 ## Adding and Configuring Sticky Selectron
-Sticky Selectron is available from a Screen Element in Edit mode. Select Sticky Selectron from the Components tab and drag it into the screen. Once Sticky Selectron you can configure it. Please follow the next screen 
+Sticky Selectron is available from a Screen Element in Edit mode. Select Sticky Selectron from the Components tab and drag it into the screen. Once Sticky Selectron is on the screen elemenent, click on it so that you can configure it. Please follow the next section (Configuration Options) for information on how to configure each setting. 
 
-![Sticky Selectron LWC Selection Screenshot](/docs/Assets/Sticky_LWC_Selection.png)
+![Sticky Selectron LWC Selection Screenshot](Assets/Sticky_LWC_Selection.png)
 
 ## Configuration Options
 Below is a list of the settings that need to be configured.
