@@ -15,12 +15,16 @@ Sticky Selectron comes with a Sample flow called Sticky Selectron Example Accoun
 Join us in making Sticky Selectron even better! These are the currently identified limitations for field display (and are part of our planned feature list). 
 
 - Date/Time display are displayed as system values
-- Relationship fields display the ID of the related record
+- Relationship fields display the ID of the related record. You can, however, display a formula field that references a related object.
+- Field Labels are displayed as column headers. 
 
 ## Configure Resources
 The flow will need to reference a set of variables (Collection Variables, Record collection Variables and Variables) that you will need to build in order for the Sticky Selectron to reference them in configuration. 
 We recommend that you create these resources before configuring Sticky Selectron. 
-Below is a list of the Resources that you will need to create and how they are used/populated. The sample collection names are from the sample flow (Sticky Selectron Example Account Flow) provided in the package. We recommend you name collections with more meaningful names to reflect your use-case.
+
+Below is a list of the Resources that you will need to create and how they are used/populated. The sample collection names are from the sample flow (Sticky Selectron Example Account Flow) provided in the package. 
+
+We recommend you name collections with more meaningful names to reflect your use-case.
 
 | Description | Type | Assignment/Use | Sample Name from flow |
 | --- | --- | --- | --- |
