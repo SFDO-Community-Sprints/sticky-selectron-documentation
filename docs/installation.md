@@ -12,8 +12,10 @@ nav_order: 2
 Sticky Selectron is available on the [Open Source Commons MetaDeploy Page](https://install.salesforce.org/products/sticky-selectron/latest).
 On this page you'll see that you have the ability to install the Sticky Selectron LWC as well as n Optional Sample flow package. 
 
-1. Note that MetaDEPLOY will install Sticky Selectron for all users by default.
-2. click on the 'Install Sticky Selectron - View Details' button.
+> [!NOTE]
+> MetaDEPLOY will install Sticky Selectron for all users.
+
+1. Click on the 'Install Sticky Selectron - View Details' button.
 3. Click login and login to the org you want to install in.
 4. On the MetaDEPLOY allow access page slect the Allow button.
 5. On the Installation page select if you'd like to install the Optional Example Flows package. This optional package is selected by default.
