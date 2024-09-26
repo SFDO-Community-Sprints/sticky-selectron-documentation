@@ -33,7 +33,7 @@ The resources are described in the [configuration](/sticky-selectron-documentati
 3. The Get Records element is where the collection of unselected records is populated. This collection doesn't have to be populated directly from a Get elements as demonstrated, but it does have to be populated. It could, for example, also be populated with an assignment element. In this case the configuration for How to Store Record Data is 'Choose fields and assign variables (advanced), and the input_Account_List was populated in the Record Collection Field.
 _If Choosing Fields, the Column header fields MUST be selected in order to display those columns in Sticky Selectron._
 
-<img alt="Sample Account Flow Get Variable Assignment"  src="/sticky-selectron-documentation/docs/Assets/SampleAccountFlow_VarAssignment.png" width="25%" >
+<img alt="Sample Account Flow Get Variable Assignment"  src="/sticky-selectron-documentation/docs/Assets/SampleAccountFlow_VarAssignment.png" width="50%" >
 4. This is a screen component using Sticky Selectron. When clicking on Sticky Selectron you can see the configuration settings. Be sure to check the advanced settings as well as three fields need to be populated. 
 
 
