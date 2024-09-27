@@ -7,7 +7,7 @@ nav_order: 7
 # Release Notes
 
 Curent release v. 2.0.1, August 30, 2024
-https://github.com/SFDO-Community/sticky-selectron/releases
+[https://github.com/SFDO-Community/sticky-selectron/releases](https://github.com/SFDO-Community/sticky-selectron/releases)
 
 This is the first release of Sticky Selectron. 
 It provides the following support:
@@ -24,7 +24,7 @@ This release does not support display of the following field types:
 - Date/Time fields display system date/time formatting
 
 See feature list up for consideration:
-https://github.com/SFDO-Community/sticky-selectron/issues
+[https://github.com/SFDO-Community/sticky-selectron/issues](https://github.com/SFDO-Community/sticky-selectron/issues)
 
 # Previous Release Notes
 
