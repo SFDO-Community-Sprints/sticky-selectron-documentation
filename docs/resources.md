@@ -13,13 +13,13 @@ List additional resources that will be helpful.
 We've create a set of test Contact data that you can load so that you can test Sticky Selectron in a Developer or or Sandbox.
 This data includes custom fields which you can choose to create and load, or you can bypass.
 
-![Data Loader field mapping SDL File](Assets/Resources Contact Map for DataLoader.sdl)
+[Data Loader field mapping SDL File](Assets/Resources_Contact_Map_for_DataLoader.sdl)
 
-![Four test contact records](Assets/Resources MOCK_DATA Contact (4 samples).csv)
+[Four test contact records](Assets/Resources_MOCK_DATA_Contact_4_samples.csv)
 
-![Three thousand test contact records](Assets/Resources MOCK_DATA Contact v2.csv)
+[Three thousand test contact records](Assets/Resources_MOCK_DATA_Contact_v2.csv)
 
-If you want to create custom fields for the test data - follow the ![attached pdf file to configure the custom fields](Assets/Resources Sticky Selectron Custom Contact Fields.pdf).
+If you want to create custom fields for the test data - follow the [attached pdf file to configure the custom fields](Assets/Resources_Sticky_Selectron_Custom_Contact_Fields.pdf).
 
 Sample flow documentation can be found here: 
 
