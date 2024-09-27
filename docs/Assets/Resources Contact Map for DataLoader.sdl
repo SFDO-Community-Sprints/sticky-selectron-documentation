@@ -1,0 +1,14 @@
+#Mapping values
+#Thu Sep 26 19:19:10 CDT 2024
+Email=Email
+MobilePhone=MobilePhone
+ssCheckbox__c=ssCheckbox__c
+ssCurrency__c=ssCurrency__c
+ssTime__c=ssTime__c
+ssPicklist_Colors__c=ssPicklist_Colors__c
+ssNumber__c=ssNumber__c
+FirstName=FirstName
+Birthdate=Birthdate
+ssTextArea__c=ssTextArea__c
+ssPercent__c=ssPercent__c
+LastName=LastName
