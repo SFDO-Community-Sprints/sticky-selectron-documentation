@@ -15,10 +15,6 @@ On this page you'll see that you have the ability to install the Sticky Selectro
 {: .note }
 MetaDEPLOY will install Sticky Selectron for all users.
 
-
-> [!NOTE]
-> MetaDEPLOY will install Sticky Selectron for all users.
-
 1. Click on the 'Install Sticky Selectron - View Details' button.
 3. Click login and login to the org you want to install in.
 4. On the MetaDEPLOY allow access page slect the Allow button.
