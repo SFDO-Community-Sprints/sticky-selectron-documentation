@@ -30,6 +30,10 @@ We recommend that you create these resources before configuring Sticky Selectron
 
 Below is a list of the resources you will need to create and how they are used/populated. The sample collection names are from the sample flow (Sticky Selectron Example Account Flow) provided in the package, in other words, you can use your own variable names, they do not have to match the example names.
 
+The screenshot shows the Selectable and Selected areas of the Sticky Selectron display:
+
+[Sticky Selectron Selected and Selectable areas](Assets/Config_SelectableSelected.png)
+
 You will be creating the following new resources in your flow:
 
 - 2: Collection Variables of Data Type TEXT, which allow multiple values and are available for input.
@@ -53,6 +57,8 @@ Using an Assignment Element - Assign the columns you wish to display to the two 
 demonstrated with two assignment elements. Still, it is possible to assign both collection variables to the
 same assignment element. Please note that you use the 'Add' Operator and you will type in the API name of the
 fields you want to display for the Object Sticky Selectron. The column will display the fields Label.
+
+Column display order will be based on the assignment order - where top to bottom assignment order corresponds to left to right column display.
 
 ![Sticky Selectron Assign Column Display Variables Screenshot](Assets/Config_AssignColumnDisplay.png)
 
