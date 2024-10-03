@@ -30,9 +30,9 @@ We recommend that you create these resources before configuring Sticky Selectron
 
 Below is a list of the resources you will need to create and how they are used/populated. The sample collection names are from the sample flow (Sticky Selectron Example Account Flow) provided in the package, in other words, you can use your own variable names, they do not have to match the example names.
 
-The screenshot shows the Selectable and Selected areas of the Sticky Selectron display:
+The screenshot below shows the Selectable and Selected areas of the Sticky Selectron display. Note that selected records are still visible on the selectable side and are indicated as selected with the + icon to their left. Records in the selected section can be unselected by clicking the - icon to their left.:
 
-[Sticky Selectron Selected and Selectable areas](Assets/Config_SelectableSelected.png)
+![Sticky Selectron Selected and Selectable areas](Assets/Config_SelectableSelected.png)
 
 You will be creating the following new resources in your flow:
 
