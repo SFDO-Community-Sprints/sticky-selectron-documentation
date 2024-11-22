@@ -28,6 +28,7 @@ has_children: false
 - That will make a sticky-selectron folder, so go into it with `cd sticky-selectron`
 - then `cci flow run dev_org --org dev` will create a new scratch org with our code (note that scratch orgs only last 7 days by default)
 - and `cci task run deploy_example_flows --org dev` will install the example flow (note that we can/should probably combine this task with the dev_org flow definition next time we change the cci config metadata)
+- also if you want to install some custom fields into the Account object in order to view/test different field types you can run `cci task run deploy_qa_config --path unpackaged/config/dev --org dev`
 - If you want to create a large number of example Accounts to work with in your scratch org you can use Snowfakery like this `cci task run snowfakery --recipe datasets/Snowfakery-Account-Example.recipe.yml --run-until-recipe-repeated 5 --org dev` (this example command will make 15 records because the recipe has 3 records inside)
 - and finally `cci org browser dev` will open the new scratch org in a browser
 
